@@ -1,0 +1,615 @@
+<html lang="en">
+
+<head>
+    <title>Dave Bonson's Resume</title>
+    <!--css-->
+    <link rel="stylesheet" href="css/main.css">
+    <!--Boostrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!--Header Section-->
+    <section id="header">
+        <div class="container text-center">
+            <div class="user-box">
+                <img src="images/dave_1.jpg" alt="Dave Photo">
+                <h1>Dave Bonson</h1>
+                <p>Junior Developer</p>
+                <div class="contact-icons">
+                    <p><a href="mailto:docbonson@gmail.com">docbonson@gmail.com</a></p>
+                    <div class="link-icons">
+                        <a href="https://www.linkedin.com/in/dave-b/" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                        <a href="https://www.github.com/docbonson" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Info Section-->
+    <section id="user-info">
+        <!-- Nav Bar-->
+        <div class="nav-bar">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-inverse ">
+                <a class="navbar-brand" href="#"><img src="images/scribble.jpg" alt="dave logo" id="logo">Dave Bonson</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#top">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#resume">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <!--About-->
+        <div class="about container" id="about">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <img src="images/dave_3.jpg" class="profile-img">
+                </div>
+                <div class="col-md-6">
+                    <h3>About Me</h3>
+                    <p>
+                        Transitioning from a career as a musician and talent buyer into tech.
+                        I have a keen eye for detail and know the importance of good design.
+                        I have a passion for music and technology and am always looking for ways to combine the two.
+                        Outside of working with music, I spend my spare time reading and writing.
+                        I love Kurt Vonnegut and Stephen King.
+                        I am currently working on writing my first novel.
+                    </p>
+                    <!--skills-->
+                    <div class="skills">
+                        <h3>Skills</h3>
+                        <ul>
+                            <div class="row">
+                                <div class="column">
+                                    <li>UI Design</li>
+                                    <li>Kotlin</li>
+                                    <li>Android</li>
+                                    <li>HTML/CSS/Bootstrap</li>
+                                    <li>Agile</li>
+                                    <li>Javascript</li>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <!--Projects-->
+            <div class="projects col-12" id="projects">
+                <h4>Projects</h4>
+                <!-- <div id="myBtnContainer">
+                    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+                    <button class="btn" onclick="filterSelection('mobile')"> Mobile</button>
+                    <button class="btn" onclick="filterSelection('ui')"> UI Designs</button>
+                    <button class="btn" onclick="filterSelection('website')"> Web Dev</button>
+                </div> -->
+
+                <!--Carousel Wrapper-->
+                <div id="multi-item-example" class="carousel slide carousel-multi-item" data-interval="false" data-ride="carousel">
+
+                    <!--Controls-->
+                    <div class="controls-top">
+                        <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-circle-left fa-3x"></i></a>
+                        <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-circle-right fa-3x"></i></a>
+                    </div>
+                    <!--/.Controls-->
+
+                    <!--Indicators-->
+                    <!-- <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol> -->
+                    <!--/.Indicators-->
+
+                    <!--Slides-->
+                    <div class="carousel-inner" role="listbox">
+
+                        <!--First slide-->
+                        <div class="carousel-item active">
+
+                            <!--Mix Tape-->
+                            <div class="col-md-3" style="float:left">
+                                <div class="column mobile">
+                                    <div class="content">
+                                        <div class="card" style="width:250px">
+                                            <img class="card-img-top" src="images/mix_tape.png" alt="mix tape logo">
+                                            <div class="card-body">
+                                                <div class="card-header bg-info text-center"><b>Mix Tape</b></div>
+                                                <div class="card-body"><b>Work in progress.</b> Retro styled Android app that allows users to create playlists and send them to other users.</div>
+                                                <div class="card-footer text-center">
+                                                    <a class="project-icons" href="" data-toggle="modal" data-target="#mixTapeModal"><i class="fa fa-eye fa-2x"></i></a>
+
+                                                    <!-- Modal -->
+                                                    <div id="mixTapeModal" class="modal fade" role="dialog">
+                                                        <div class="modal-dialog modal-lg">
+                                                            <!-- Modal content-->
+                                                            <div class="modal-content">
+                                                                <div class="modal-header bg-info">
+                                                                    <h4 class="modal-title">Mix Tape</h4>
+                                                                </div>
+                                                                <div class="modal-body text-left">
+                                                                    <h5>Screenshots</h5>
+                                                                    <img src="images/mt_signIn.PNG" alt="AR Picture" style="width: 150px">
+                                                                    <img src="images/mt_recyclerView.PNG" alt="AR Picture" style="width: 150px">
+                                                                    <img src="images/mt_player.PNG" alt="AR Picture" style="width: 150px">
+                                                                    <h5>About</h5>
+                                                                    <p>
+                                                                        <b>Still a work in progress.</b>
+                                                                        A retro styled app that will allow users to create a playlist of a maximum of ten tracks.
+                                                                        The user will then be able to send created mix tapes to other users.
+                                                                    </p>
+                                                                        <ul>
+                                                                            <li>Utilized Firebase authentication to allow users to sign in using Google, Facebook, or Email</li>
+                                                                            <li>Created a working database using Firebase to store user info and allow users to add mp3 files to the app.</li>
+                                                                            <li>Implemented animations on media player and log in screen for a more immersive user experience.</li>
+                                                                            <li>Implemented a recycler view to hold created playlist allowing users to edit and delete items.</li>
+                                                                            <li>Enabled view models and saved instance states to ensure that no data is lost when rotating phone.</li>
+                                                                            <li>Created a working media player designed to match the theme of the app.</li>
+                                                                            <li>Utilized color schemes to ensure all activities are accessible and legible.</li>
+                                                                        </ul>
+                                                                        <h5>Future</h5>
+                                                                        <p>Will allow users to design/customize their cassette tape. Allow users to track created mix tapes so they can see how much they they have been shared.
+                                                                        </p>
+                                                                </div>
+                                                                <div class="modal-footer">
+                                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Modal Ends-->
+                                                    <a class="project-icons" href="https://github.com/docbonson/Mix_Tape" target="_blank"><i class="fa fa-code fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--AR Core-->
+                            <div class="col-md-3" style="float:left">
+                                <div class="column mobile">
+                                    <div class="content">
+                                        <div class="card" style="width:250px">
+                                            <img class="card-img-top" src="images/ar.png" alt="AR Image">
+                                            <div class="card-body">
+                                                <div class="card-header bg-info text-center"><b>ARCore Project</b></div>
+                                                <div class="card-body">An app that uses Google Sceneform to generate 3D images on a plane.</div>
+                                                <div class="card-footer text-center projects-icons">
+                                                    <a class="project-icons" href="" data-toggle="modal" data-target="#arModal"><i class="fa fa-eye fa-2x"></i></a>
+
+                                                    <!-- Modal -->
+                                                    <div id="arModal" class="modal fade" role="dialog">
+                                                        <div class="modal-dialog modal-lg">
+                                                            <!-- Modal content-->
+                                                            <div class="modal-content">
+                                                                <div class="modal-header bg-info">
+                                                                    <h4 class="modal-title">ARCore Project</h4>
+                                                                </div>
+                                                                <div class="modal-body text-left">
+                                                                    <h5>Screenshots</h5>
+                                                                    <img src="images/lion.PNG" alt="AR Picture" style="width: 150px">
+                                                                    <h5>About</h5>
+                                                                    <p>
+                                                                        A very basic use of Google Sceneform to generate 3D assets onto a plane. I wanted to start to explore the possiblities of working with AR to see how it works.
+                                                                        Still running into a few issues with emulator crashing. Currently working on a fix for that.
+                                                                        <ul>
+                                                                            <li>Implemented Sceneform to the Android application to handle ARCore session creation, requesting camera permission, as well as provide common UX elements.</li>
+                                                                            <li>Imported 3D models to IntelliJ project.</li>
+                                                                            <li>Utilized a horizonal scroll to allow users to choose images to generate.</li>
+                                                                        </ul>
+                                                                    </p>
+                                                                </div>
+                                                                <div class="modal-footer">
+                                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Modal Ends-->
+                                                    <a class="project-icons" href="https://github.com/docbonson/AR_Test" target="_blank"><i class="fa fa-code fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Vinyl Player-->
+                            <div class="col-md-3" style="float:left">
+                                <div class="column ui">
+                                    <div class="content">
+                                        <div class="card" style="width:250px">
+                                            <img class="card-img-top rotate" src="images/vinyl_2.png" alt="vinyl image">
+                                            <div class="card-body">
+                                                <div class="card-header bg-info"><b>Spinning Vinyl Player</b></div>
+                                                <div class="card-body">UI design for a spinning vinyl music player.</div>
+                                                <div class="card-footer text-center projects-icons">
+                                                    <a class="project-icons" data-toggle="modal" href="" data-target="#vinylModal"><i class="fa fa-eye fa-2x"></i></a>
+                                                    <!-- Modal -->
+                                                    <div id="vinylModal" class="modal fade" role="dialog">
+                                                        <div class="modal-dialog modal-lg">
+                                                            <!-- Modal content-->
+                                                            <div class="modal-content">
+                                                                <div class="modal-header bg-info">
+                                                                    <h4 class="modal-title">Spinning Vinyl Player</h4>
+                                                                </div>
+                                                                <div class="modal-body text-left">
+                                                                    <h5>Videos</h5>
+                                                                    <video width="200" height="240" controls>
+                                                                        <source src="videos/vinyl_player.webm">
+                                                                        Your browsers does not support the video tag.
+                                                                    </video>
+                                                                    <h5>About</h5>
+                                                                    <p>This is my first crack at a Media Player. Been working on learning a lot of the UI that is invovled with creating something like this.
+                                                                        Thought it would be fun to make a spinning vinyl player.
+                                                                        <ul>
+                                                                            <li>Use animations in order to create a working spinning vinyl media player.</li>
+                                                                            <li>Wire up widgets for play and pause functions.</li>
+                                                                            <li>Implement a seek bar that works when mp3 file is playing.</li>
+                                                                        </ul>
+                                                                        <h5>Future</h5>
+                                                                        I plan on adding more to this and working towards implementing a way for the user to click on the vinyl and be able to spin it to rewind or fast foward the track.
+                                                                        I also plan on adding more UI and connecting the rest of the buttons for a more user friendly experience and accessibilty.
+                                                                    </p>
+                                                                </div>
+                                                                <div class="modal-footer">
+                                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Modal Ends-->
+                                                    <a class="project-icons" href="https://github.com/docbonson/Vinyl-Player" target="_blank"><i class="fa fa-code fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Memorial Site-->
+                            <div class="col-md-3" style="float:left">
+                                <div class="column website">
+                                    <div class="content">
+                                        <div class="card" style="width:250px">
+                                            <img class="card-img-top" src="images/website.png" alt="website image">
+                                            <div class="card-body">
+                                                <div class="card-header bg-info text-center"><b>Memorial Site</b></div>
+                                                <div class="card-body"><a href="http://ashquinnmemorial.com/" target="_blank">ashquinnmemorial.com</a>A memorial website that includes; music, videos, and memories.</div>
+                                                <div class="card-footer text-center projects-icons">
+                                                    <a class="project-icons" href="" data-toggle="modal" data-target="#ashModal"><i class="fa fa-eye fa-2x"></i></a>
+                                                    <!-- Modal -->
+                                                    <div id="ashModal" class="modal fade" role="dialog">
+                                                        <div class="modal-dialog modal-lg">
+                                                            <!-- Modal content-->
+                                                            <div class="modal-content">
+                                                                <div class="modal-header bg-info">
+                                                                    <h4 class="modal-title">Memorial Site</h4>
+                                                                </div>
+                                                                <div class="modal-body text-left">
+                                                                    <h5>About</h5>
+                                                                    <p>This is my first website. I built it after I lost a very dear friend. I know there needs to be work done on it still. I just haven't been in the right mindset to return yet.
+                                                                        Still need to run it through Axe and HTML/CSS validations among other things.
+                                                                        <ul>
+                                                                            <li>Created a responsive site that includes, music, videos, and a light gallery using Bootstrap, HTML, Javascript, and CSS.</li>
+                                                                            <li>Used Figma to create a wireframe and working demo.</li>
+                                                                            <li>Collaborated with a back-end developer to improve usability and speed.</li>
+                                                                            <li>Balanced aesthetics and user experience while considering the needs of the intended audience.</li>
+                                                                            <li>Made a page where users can read and write comments.</li>
+                                                                            <li>Ensure color schemes and text are accessible.</li>
+                                                                            <li>Built an innovative, interactive website from concept to completion.</li>
+                                                                        </ul>
+                                                                    </p>
+                                                                </div>
+                                                                <div class="modal-footer">
+                                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Modal Ends-->
+                                                    <a class="project-icons" href="http://ashquinnmemorial.com/" target="_blank"><i class="fa fa-external-link fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!--/.First slide-->
+
+                        <!--Second slide-->
+                        <div class="carousel-item">
+                            <!--Text Game-->
+                            <div class="col-md-3" style="float:left">
+                                <div class="column mobile">
+                                    <div class="content">
+                                        <div class="card" style="width:250px">
+                                            <img class="card-img-top" src="images/skizz.png" alt="cat image">
+                                            <div class="card-body">
+                                                <div class="card-header bg-info"><b>Text Game</b></div>
+                                                <div class="card-body"><b>Work in progress.</b> A simple text based adventure game.</div>
+                                                <div class="card-footer text-center projects-icons">
+                                                    <a class="project-icons" href="" data-toggle="modal" data-target="#textGameModal"><i class="fa fa-eye fa-2x"></i></a>
+                                                    <!-- Modal -->
+                                                    <div id="textGameModal" class="modal fade" role="dialog">
+                                                        <div class="modal-dialog modal-lg">
+                                                            <!-- Modal content-->
+                                                            <div class="modal-content">
+                                                                <div class="modal-header bg-info">
+                                                                    <h4 class="modal-title">Text Game</h4>
+                                                                </div>
+                                                                <div class="modal-body text-left">
+                                                                    <h5>Screenshots</h5>
+                                                                    <img src="images/tg_title.png" alt="title screen" style="width: 150px">
+                                                                    <img src="images/tg_start.png" alt="start event" style="width: 150px">
+                                                                    <img src="images/tg_game_over.png" alt="game over" style="width: 150px">
+                                                                    <h5>About</h5>
+                                                                    <p>
+                                                                        Exploring the workings of creating a text based game in Kotlin. Currently working on building a story for the game.
+                                                                        <h5>Future</h5>
+                                                                        <ul>
+                                                                        <li>Creating a Lovecraftian story that changes based on what the user sees in a Rorschach inkblot.</li>
+                                                                        <li>Implementing interactive portions for the user. Such as; rearranging words to create a story, on click events, and scroll events.</li>
+                                                                    </ul>
+                                                                    </p>
+                                                                </div>
+                                                                <div class="modal-footer">
+                                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Modal Ends-->
+                                                    <a class="project-icons" href="https://github.com/docbonson/Text_Game"><i class="fa fa-code fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Calculator-->
+                            <div class="col-md-3" style="float:left">
+                                <div class="column mobile">
+                                    <div class="content">
+                                        <div class="card" style="width:250px">
+                                            <img class="card-img-top" src="images/calc.jpg" alt="calculator image">
+                                            <div class="card-body">
+                                                <div class="card-header bg-info text-center"><b>Basic Calulator</b></div>
+                                                <div class="card-body">A simple calculator App.</div>
+                                                <div class="card-footer text-center projects-icons">
+                                                    <a class="project-icons" href="" data-toggle="modal" data-target="#calcModal"><i class="fa fa-eye fa-2x"></i></a>
+
+                                                    <!-- Modal -->
+                                                    <div id="calcModal" class="modal fade" role="dialog">
+                                                        <div class="modal-dialog modal-lg">
+                                                            <!-- Modal content-->
+                                                            <div class="modal-content">
+                                                                <div class="modal-header bg-info">
+                                                                    <h4 class="modal-title">Basic Calulator</h4>
+                                                                </div>
+                                                                <div class="modal-body text-left">
+                                                                    <h5>Videos</h5>
+                                                                    <p>Ran into issues when trying to record the screen. Video coming soon.</p>
+                                                                    <h5>Screenshots</h5>
+                                                                    <img src="images/calc_screen.png" alt="calculator screen" style="width: 150px">
+                                                                    <h5>About</h5>
+                                                                    <p>
+                                                                        Just a basic calculator app. I made this for fun just to explore some new things.
+                                                                    </p>
+                                                                </div>
+                                                                <div class="modal-footer">
+                                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Modal Ends-->
+                                                    <a class="project-icons" href="https://github.com/docbonson/Basic-Calulator" target="_blank"><i class="fa fa-code fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!--/.Second slide-->
+
+                    </div>
+                    <!--/.Slides-->
+                </div>
+                <!--/.Carousel Wrapper-->
+            </div>
+        </div>
+        </div>
+
+        <!--Resume-->
+        <div class="resume" id="resume">
+            <div class="container">
+                <div class="text-center">
+                    <button type="button" class="btn btn-primary">
+                        <a class="download" href="" download></a>
+                        <i class="fa fa-download"></i>
+                        Resume
+                    </button>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3 class="text-center">Experience</h3>
+                        <ul class="timeline">
+                            <li>
+                                <h4>TALENT BUYER/PROMOTER</h4>
+                                <p>
+                                    <b>BEAUTY BAR</b>
+                                    <br>
+                                    <b>Duration</b> - [Oct 2018 - March 2019]
+                                    <br>
+                                    <b>Location</b> - Las Vegas, NV
+                                    <br>
+                                    <ul>
+                                        <li>Organized shows seven nights a week on an inside stage (110 cap) and outside stage (300+ cap).</li>
+                                        <li>Hosted bi-weekly staff meetings to ensure all needs are met for upcoming events.</li>
+                                        <li>Created Eventbrite pages for events and track presale tickets.</li>
+                                        <li>Promoted target content through various social network sites such as; Facebook, Instagram, and Reddit using tools like Hootsuite.</li>
+                                        <li>Implemented new programs to track day of sales, pre-sales, and band riders.</li>
+                                    </ul>
+                                </p>
+                            </li>
+                            <li>
+                                <h4>PROMOTER/STAGE MANGER</h3>
+                                    <p>
+                                        <b>DTK ENTERTAINMENT</b>
+                                        <br>
+                                        <b>Duration</b> - [March 2018 - Oct 2018]
+                                        <br>
+                                        <b>Location</b> - Los Angeles, CA
+                                        <br>
+                                        <ul>
+                                            <li>Acted as community manager to ensure that events are marketed correctly to certain demographics depending on the event.</li>
+                                            <li>Acted as a talent buyer for multiple venues within our network.</li>
+                                            <li>Developed contacts with individuals and organizations and apply effective strategies and techniques to ensure their artists' success.</li>
+                                        </ul>
+                            </li>
+                            <li>
+                                <h4>FREELANCE TALENT BUYER</h3>
+                                    <p>
+                                        <b>VIPER ROOM</b>
+                                        <br>
+                                        <b>Duration</b> - [Nov 2017 - March 2018]
+                                        <br>
+                                        <b>Location</b> - Los Angeles, CA
+                                        <br>
+                                        <ul>
+                                            <li>Negotiated contracts with the venue and artist to make sure contracts are followed through in a professional manner.</li>
+                                            <li>Organized strategies based on upcoming calendar events.</li>
+                                            <li>Used Ticketbat to track ticket sales for upcoming events.</li>
+                                            <li>Organized the website calendar with all upcoming events and details.</li>
+                                            <li>Adapted to all last-minute changes and prepare for any issues that may come up.</li>
+                                        </ul>
+                            </li>
+                            <li>
+                                <h4>FREELANCE SOCIAL MEDIA MARKETER</h3>
+                                    <p>
+                                        <b>LOST BOYS INTERACTIVE</b>
+                                        <br>
+                                        <b>Duration</b> - [March 2018 - Aug 2018]
+                                        <br>
+                                        <b>Location</b> - Madison, WI
+                                        <br>
+                                        <ul>
+                                            <li>Used social media tools such as Hootsuite to improve efficiency and manage all accounts effectively.</li>
+                                            <li>Was in contact with multiple media outlets to help promote upcoming projects.</li>
+                                            <li>Checked and manage metrics utilizing Google Analytics.</li>
+                                            <li>Oversaw layout of all social media accounts.</li>
+                                            <li>Created engaging content in text, image, and video formats.</li>
+                                        </ul>
+                            </li>
+
+                            <li>
+                                <h4>TALENT BUYER</h3>
+                                    <p>
+                                        <b>FREQUENCY</b>
+                                        <br>
+                                        <b>Duration</b> - [Jan 2014 - Oct 2017]
+                                        <br>
+                                        <b>Location</b> - Madison, WI
+                                        <br>
+                                        <ul>
+                                            <li>Followed music trends in the local scene and create events based around current trends.</li>
+                                            <li>Created an annual Riot Grrrl themed festival that received public attention and press. The festival was used to help raise money for various charity organizations.</li>
+                                            <li>Was in touch with local press outlets; newspapers, zines, and radio stations to help promote all upcoming events.</li>
+                                        </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Education-->
+                    <div class="col-md-6">
+                        <h3 class="text-center">Education</h3>
+                        <ul class="timeline">
+                            <li>
+                                <h4>Associate of Applied Science, Mobile Application Development</h4>
+                                <p>
+                                    <b>Madison College</b>
+                                    <br>
+                                    <b>Duration:</b> 2019-2021
+                                    <br>
+                                    <b>Honors:</b> Dean's List - Spring 2020, Fall 2020
+                                    <br>
+                                    <b>Expected Graduation Date:</b> 2021
+                                </p>
+                            </li>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!--Contact-->
+    <div class="contact" id="contact">
+        <div class="container text-center">
+            <h1>Contact Me</h1>
+            <p class="text-center">Please...</p>
+
+            <div class="row">
+
+                <div class="col-md-4">
+                    <a href="mailto:docbonson@gmail.com"><i class="fa fa-envelope fa-2x"></i></a>
+                </div>
+
+                <div class="col-md-4">
+                    <p><a href="https://www.linkedin.com/in/dave-b/" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a></p>
+                </div>
+
+                <div class="col-md-4">
+                    <p><a href="https://www.github.com/docbonson" target="_blank"><i class="fa fa-github fa-2x"></i></a></p>
+                </div>
+            </div>
+
+            <button type="button" class="btn btn-primary">
+                <a class="download" href="resume/DaveBonsonResume.docx" download></a>
+                <i class="fa fa-download"></i>
+                Resume
+            </button>
+        </div>
+
+        <footer>
+            <div class="footer text-center">
+                <p>By: Dave Bonson</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="js/filter_projects.js"></script>
+</body>
+
+</html>
